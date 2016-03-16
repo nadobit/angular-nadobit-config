@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/angular-nadobit-config.js",
   "authors": [
-    "Bastian Probian <bastian@probian.de>",
+    "Bastian Probian <contmp@me.com>",
     "Michael Drescher <kaesemeister@gmail.com>"
   ],
   "description": "AngularJS module for loading config files",
