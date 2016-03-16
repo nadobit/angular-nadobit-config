@@ -1,0 +1,22 @@
+{
+  "name": "angular-nadobit-config",
+  "version": "1.0.0",
+  "main": "dist/angular-nadobit-config.js",
+  "authors": [
+    "Bastian Probian <bastian@probian.de>",
+    "Michael Drescher <kaesemeister@gmail.com>"
+  ],
+  "description": "AngularJS module for loading config files",
+  "keywords": [
+    "nadobit",
+    "angular",
+    "config"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nadobit/angular-nadobit-config",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
