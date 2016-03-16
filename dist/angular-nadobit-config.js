@@ -1,16 +1,14 @@
 (function() {
 
-    angular.module('nadobit.config')
+    angular.module('nadobit.config', [])
 
     .provider('nbConfig', function()
     {
         this.url = null;
 
-        this.$get = function($http, $q) {
-            "ngInject";
-
+        this.$get = ['$http', '$q', function($http, $q) {
             return new ConfigService($http, $q, this);
-        };
+        }];
     })
 
     ;
@@ -37,4 +35,4 @@
         };
     }
 
-})();
+}());
