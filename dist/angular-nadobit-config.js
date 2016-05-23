@@ -4,7 +4,7 @@
 
     .provider('nbConfig', function()
     {
-        this.url = null;
+        this.url = 'config.js';
 
         this.$get = ['$http', '$q', function($http, $q) {
             return new ConfigService($http, $q, this);
